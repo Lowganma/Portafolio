@@ -1,0 +1,7 @@
+services:
+  portfolio-lowganma:
+    build: .
+    container_name: portfolio-lowganma
+    ports:
+      - "3012:80"
+    restart: unless-stopped
